@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BevelLabelView">
+        <attr name="text" format="string" />
+        <attr name="textColor" />
+        <attr name="textSize" />
+        <attr name="paddingTop" />
+        <attr name="paddingBottom" />
+        <attr name="paddingLeft" />
+        <attr name="paddingRight" />
+    </declare-styleable>
+</resources>
