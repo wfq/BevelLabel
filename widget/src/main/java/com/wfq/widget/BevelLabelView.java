@@ -255,13 +255,13 @@ public class BevelLabelView extends View {
         if (size != mTextPaint.getTextSize()) {
             mTextPaint.setTextSize(size);
 
-            if (shouldRequestLayout && mLayout != null) {
-                // Do not auto-size right after setting the text size.
-                mNeedsAutoSizeText = false;
-                nullLayouts();
-                requestLayout();
-                invalidate();
-            }
+//            if (shouldRequestLayout && mLayout != null) {
+//                // Do not auto-size right after setting the text size.
+////                mNeedsAutoSizeText = false;
+////                nullLayouts();
+//                requestLayout();
+//                invalidate();
+//            }
         }
     }
 
